@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, yellowgreen, aqua, green);
+  }
+  
+  #Navbar{
+    background-color: magenta;
+    padding: 5px;
+    margin-bottom: 3rem;
+    font-family: elephant;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .title{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .title:hover{
+    color: black;
+  }
+  
+  .text{
+    margin-left: 5rem;
+    font-size: 1.3rem;
+  }
+  
+  .details{
+    margin: 0 5rem;
+  }
+  
+  .header{
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h2{
+    font-family: 'Secular One', sans-serif;
+  }
+  
+  #butn{
+    font-size: 1.3rem;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 25px;
+  }
+  #butn:hover{
+    background-color: yellow;
+  }
+  
+  td{
+    padding: 15px !important;
+  }
+  
+  .algn{
+    text-align: right;
+  }
+  h3{
+    color:red;
+  }
